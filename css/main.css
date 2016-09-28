@@ -1,0 +1,113 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/********************************************************************/
+
+body {
+    /* padding-top: 10px;
+    padding-bottom: 20px;*/
+}
+
+.nav-tabs { 
+    border-bottom: 4px solid #DDD; 
+    margin: -15px; 
+    padding-top: 5px; 
+
+
+ 
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#257f29+0,257f29+100 */
+background: #158035;
+
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover { 
+    border-width: 0; 
+    background: transparent;
+
+}
+
+.nav-tabs > li > a { 
+    border: none; color: white; 
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li > a:hover { 
+    border: none; 
+    color: #C3D9C5 !important; 
+    background: transparent; 
+}
+
+.nav-tabs > li > a::after { 
+    content: ""; 
+    background: black; 
+    height: 3px; 
+    position: absolute; 
+    width: 100%; 
+    left: 0px; 
+    bottom: -1px; 
+    transition: all 250ms ease 0s; 
+    transform: scale(0); 
+}
+
+.nav-tabs > li.active > a::after, .nav-tabs > li:hover > a::after { 
+    transform: scale(1); 
+    
+}
+
+.tab-nav > li > a::after { 
+    background: #21527d none repeat scroll 0% 0%; 
+    color: #fff; 
+}
+
+
+.tab-content {
+    padding:10px
+}
+
+.app-tabla {
+    font-size: 12px;
+}
+
+.app-grafica {
+    min-width: 570px;
+    height: 490px;
+    max-width: 500px;
+    margin: 0 auto
+}
+.app-encabezado{
+    font-size: 13px;
+    color: #464646;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px 1px #848484;
+}
+.app-footer2{
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+24,e1e1e1+59,f6f6f6+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 24%, #e1e1e1 59%, #f6f6f6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 24%,#e1e1e1 59%,#f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 24%,#e1e1e1 59%,#f6f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+text-shadow: 1px 1px 10px #848484;
+color: black;
+}
+
+.app-filtros{
+    font-size: 15px;
+    color: #5D6C5F;
+}
+.app-login{
+    background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #f1f1f1 24%, #e1e1e1 59%, #f6f6f6 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f1f1 24%,#e1e1e1 59%,#f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#f1f1f1 24%,#e1e1e1 59%,#f6f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+/* text-shadow: 1px 1px 10px #868686;*/
+color: #484848; 
+
+}
+
+.panel-default > .panel-heading{
+    border-color: transparent;
+}
